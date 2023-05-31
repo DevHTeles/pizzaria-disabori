@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+
+.topo-logo-edit{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
