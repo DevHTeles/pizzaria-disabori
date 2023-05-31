@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Disabori</title>
 
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/home.css">
     <link rel="stylesheet" href="./src/styles/media-style.css">
+
+    <link rel="shortcut icon" href="./src/img/icons/logo.ico" type="image/x-icon">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,40 +19,70 @@
 
 
 <body>
-    
-    <nav class="topo-menu-geral">
-        <div class="topo-logo-menu">
-            <a class="topo-menu-edit" href="./index.html">
-                <img class="topo-logo-edit" src="./src/img/logo-disabori.png" alt="logo-menu">
-            </a>
+
+    <nav class="navBar">
+        <div class="containerNavBar">
+            <img class="topo-logo-edit" src="./src/img/logo-disabori.png" alt="logo-menu">
+            <ul class="ul-menu">
+                <li class="li-menu">
+                    <a class="navBarLink" href="./index.html">Início</a>
+                </li>
+                <li class="li-menu">
+                    <a class="navBarLink" href="./html/cardapio.html">Cardápio</a>
+                </li>
+                <li class="li-menu">
+                    <a class="navBarLink" href="./html/sobre.html">Sobre</a>
+                </li>
+                <li class="li-menu">
+                    <a class="navBarLink" href="./html/contato.html">Contato</a>
+                </li>
+            </ul>
         </div>
-
-        <button class="btn-menu">&#9776;</button>
-
-        <ul class="ul-menu">
-            <li class="li-menu">
-                <a class="" href="./index.html">
-                    <p class="paragrafo-menu">Início</p>
-                </a>
-            </li>
-            <li class="li-menu">
-                <a class="" href="./html/cardapio.html">
-                    <p class="paragrafo-menu">Cardápio</p>
-                </a>
-            </li>
-            <li class="li-menu">
-                <a class="" href="./html/sobre.html">
-                    <p class="paragrafo-menu">Sobre</p>
-                </a>
-            </li>
-            <li class="li-menu">
-                <a class="" href="./html/contato.html">
-                    <p class="paragrafo-menu">Contato</p>
-                </a>
-            </li>
-        </ul>
     </nav>
-
+    <button class="btn-menu">&#9776;</button>
+    </nav>
+    <div class="pizzariaContainer">
+        <div class="pizzariaTitle">
+            <h1>Bem-vindo a pizzaria Disabori!</h1>
+        </div>
+        <div class="pizzariaSlogan">
+            <h2> O lugar onde o sabor encontra a paixão pela pizza.</h2>
+        </div>
+        <div class="containerPizzariaText">
+            <div class="pizzariaText">
+                <p>
+                    Prepare-se para uma experiência gastronômica única, repleta de sabores autênticos e ingredientes
+                    frescos
+                    cuidadosamente selecionados.
+                    Na Disabori, acreditamos que uma boa pizza vai além da massa e dos ingredientes. É sobre criar
+                    momentos
+                    memoráveis e satisfazer os paladares mais exigentes.<br> Nossas pizzas são verdadeiras obras de arte
+                    culinárias,
+                    feitas com maestria e amor pela equipe de chefs talentosos.<br>
+                    Na Disabori, acreditamos que cada cliente merece uma experiência única e inesquecível. Por isso,
+                    nossa equipe está pronta para atendê-lo(a) com profissionalismo e cordialidade, garantindo que todos
+                    os detalhes sejam cuidadosamente considerados.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="containerPizzaImage">
+        <img src="./src/img/img-pizzas/pizza-home.jpg" class="pizzaImage"/>
+    </div>
+    <div class="redesSociais">
+        <a href="https://www.instagram.com/disaboripizzaria/" target="_blank">
+            <img src="./src/img/icons/instagram-icon.png" class="instagramIcon" />
+        </a>
+        <a href="https://api.whatsapp.com/message/RCMOKCU7B4S5C1?autoload=1&app_absent=0/" target="_blank">
+            <img src="./src/img/icons/whatsapp-icon.png" class="whatsappIcon" />
+        </a>
+    </div>
+    <footer>
+        <div class="copyrightFooter">
+            <P> ©texto de copyright aqui...</P>
+        </div>
+    </footer>
 </body>
 
 

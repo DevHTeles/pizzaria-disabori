@@ -1,10 +1,114 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: blue;
+    background-color: bisque;
 }
 
 .topo-logo-edit{
     width: 60px;
     height: 60px;
     border-radius: 30px;
+    margin-left: 15px;
+}
+
+.containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+
+}
+
+.li-menu {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.ul-menu{
+    text-align: center;
+    display: flex;
+    margin-right: 3%;
+
+}
+.navBarLink {
+    text-decoration: none;
+    color: white;
+}
+
+.navBarLink:hover{
+    padding-bottom: 1px;
+    border-bottom: solid bisque;
+}
+
+.btn-menu{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    /* display: none; */
+}
+.btn-menu:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.edit-endereco {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0 auto;
+}
+.edit-endereco h2{
+    margin: 0;
+    margin-top: 5%;
+}
+.edit-endereco p{
+    color: #C0C0C0;
+    margin: 0;
+}
+.container-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10%; */
+}
+.map {
+    position: relative;
+    width: 1280px;
+    height: 500px;
+    background: white;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.copyrightFooter {
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
